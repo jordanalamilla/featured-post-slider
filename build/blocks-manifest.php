@@ -8,8 +8,8 @@ return array(
 		'version' => '0.1.0',
 		'title' => 'Featured Post Slider',
 		'category' => 'widgets',
-		'icon' => 'smiley',
-		'description' => 'Example block scaffolded with Create Block tool.',
+		'icon' => 'images-alt2',
+		'description' => 'A WordPress block plugin to display featured posts in a slider format.',
 		'example' => array(
 			
 		),

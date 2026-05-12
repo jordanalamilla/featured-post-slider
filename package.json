@@ -1,8 +1,8 @@
 {
 	"name": "featured-post-slider",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"description": "A WordPress block plugin to display featured posts in a slider format.",
+	"author": "Jordan Michael Alamilla",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
