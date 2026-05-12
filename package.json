@@ -1,18 +1,18 @@
 {
 	"name": "featured-post-slider",
 	"version": "0.1.0",
-	"description": "A WordPress block plugin to display featured posts in a slider format.",
+	"description": "Display featured posts in a slider format.",
 	"author": "Jordan Michael Alamilla",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
-		"build": "wp-scripts build --blocks-manifest",
+		"build": "wp-scripts build --webpack-copy-php --blocks-manifest",
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start --blocks-manifest"
+		"start": "wp-scripts start --webpack-copy-php --blocks-manifest"
 	},
 	"dependencies": {
 		"@wordpress/block-editor": "latest",

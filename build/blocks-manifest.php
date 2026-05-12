@@ -7,9 +7,9 @@ return array(
 		'name' => 'create-block/featured-post-slider',
 		'version' => '0.1.0',
 		'title' => 'Featured Post Slider',
-		'category' => 'widgets',
+		'category' => 'posts',
 		'icon' => 'images-alt2',
-		'description' => 'A WordPress block plugin to display featured posts in a slider format.',
+		'description' => 'Display featured posts in a slider format.',
 		'example' => array(
 			
 		),
@@ -20,6 +20,7 @@ return array(
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php',
 		'viewScript' => 'file:./view.js'
 	)
 );
